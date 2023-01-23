@@ -10,13 +10,13 @@ func main() {
 
 	target := byte('d')
 
-	result := nextGreatestCharacter(characters, target)
+	result := nextSmallestCharacter(characters, target)
 
 	fmt.Println("output:  ", result)
 
 }
 
-func nextGreatestCharacter(characters []byte, target byte) string {
+func nextSmallestCharacter(characters []byte, target byte) string {
 
 	start := 0
 
