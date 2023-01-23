@@ -16,7 +16,7 @@ func main() {
 
 }
 
-func nextGreatestCharacter(characters []byte, target byte) string {
+func nextSmallestCharacter(characters []byte, target byte) string {
 
 	start := 0
 
