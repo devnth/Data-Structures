@@ -32,5 +32,7 @@ func nextSmallestCharacter(characters []byte, target byte) string {
 	}
 
 	return string(characters[start%length])
+	//we are taking the remainder so that if next smallest number doesn't exits
+	//we return the first letter in the array
 
 }

@@ -1,15 +1,13 @@
 package main
 
-import "fmt"
+// func main() {
 
-func main() {
+// 	array := []int{7, 2, 5, 8, 10}
 
-	array := []int{7, 2, 5, 8, 10}
+// 	result := splitArray(array, 2)
 
-	result := splitArray(array, 2)
-
-	fmt.Println(result)
-}
+// 	fmt.Println(result)
+// }
 
 // function to find the largest sum from the splited array
 func splitArray(nums []int, k int) int {
