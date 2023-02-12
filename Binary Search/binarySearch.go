@@ -1,22 +1,20 @@
 package main
 
-import "fmt"
+// func main() {
 
-func main() {
+// 	array := []int{3, 5, 9, 23, 30, 34, 45, 56, 78}
 
-	array := []int{3, 5, 9, 23, 30, 34, 45, 56, 78}
+// 	target := 2
 
-	target := 2
+// 	status, index := binarySearch(array, target)
 
-	status, index := binarySearch(array, target)
+// 	if status {
+// 		fmt.Printf("target found at %d", index)
+// 	} else {
+// 		fmt.Println("target not found")
+// 	}
 
-	if status {
-		fmt.Printf("target found at %d", index)
-	} else {
-		fmt.Println("target not found")
-	}
-
-}
+// }
 
 func binarySearch(array []int, target int) (bool, int) {
 

@@ -1,20 +1,16 @@
 package main
 
-import (
-	"fmt"
-)
+// func main() {
 
-func main() {
+// 	characters := []byte{'c', 'f', 'j'}
 
-	characters := []byte{'c', 'f', 'j'}
+// 	target := byte('d')
 
-	target := byte('d')
+// 	result := nextSmallestCharacter(characters, target)
 
-	result := nextSmallestCharacter(characters, target)
+// 	fmt.Println("output:  ", result)
 
-	fmt.Println("output:  ", result)
-
-}
+// }
 
 func nextSmallestCharacter(characters []byte, target byte) string {
 

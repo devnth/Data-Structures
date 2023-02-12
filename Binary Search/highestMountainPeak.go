@@ -1,18 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
+// func main() {
 
-func main() {
+// 	data := []int{2, 4, 5, 6, 7, 4, 3}
 
-	data := []int{2, 4, 5, 6, 7, 4, 3}
+// 	fmt.Printf("Index of Target %d", ans(data))
 
-	fmt.Printf("Index of Target %d", ans(data))
+// }
 
-}
-
-func ans(data []int) int {
+func answer(data []int) int {
 
 	start := 0
 	end := len(data) - 1
